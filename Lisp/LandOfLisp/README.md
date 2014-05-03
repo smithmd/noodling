@@ -1,5 +1,4 @@
 ## Land of Lisp
-### _Conrad Barski_
 
 The files in this folder are my attempts to learn lisp through the book _Land of Lisp_
 
