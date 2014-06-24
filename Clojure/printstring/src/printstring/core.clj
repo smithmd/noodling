@@ -6,4 +6,4 @@
   (println x "Hello, World!"))
 
 (defn -main []
-  ( println "Hello world"))
+  (foo 'Test))
