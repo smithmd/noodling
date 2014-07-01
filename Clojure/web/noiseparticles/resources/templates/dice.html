@@ -26,7 +26,7 @@
 			}
 
 			function roll(sides, id) {
-				$("#result"+id).html(Math.floor(Math.random()*sides)+1);
+				$("#result"+id).fadeOut(500, function () { $("#result"+id).html(Math.floor(Math.random()*sides)+1).fadeIn(300)});
 			}
 
 </script>
@@ -38,7 +38,7 @@
   margin:10px 0;
   padding:10px;
   width:350px;
-  height:3em;
+  height:4em;
   }
   .section p {
   margin: 0;
