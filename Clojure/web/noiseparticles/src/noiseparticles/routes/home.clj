@@ -10,6 +10,11 @@
 (defn about-page []
   (layout/render "about.html"))
 
+(defn resume-page []
+  (layout/render
+    "resume.html" {:content (util/md->html "/md/resume.md")}))
+
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/about" [] (about-page)))
+  (GET "/about" [] (about-page))
+  (GET "/resume" [] (resume-page)))
