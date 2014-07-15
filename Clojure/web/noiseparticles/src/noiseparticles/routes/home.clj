@@ -10,6 +10,10 @@
 (defn about-page []
   (layout/render "about.html"))
 
+(defn dice-page []
+  (layout/render "dice.html"))
+
 (defroutes home-routes
   (GET "/" [] (home-page))
-  (GET "/about" [] (about-page)))
+  (GET "/about" [] (about-page))
+  (GET "/dice" [] (dice-page)))
