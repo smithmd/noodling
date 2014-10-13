@@ -13,4 +13,3 @@
     sum))
 
 (sum-down-from 0 10)
-
