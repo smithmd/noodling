@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9232119819F97F1C004C1C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9232119719F97F1C004C1C1C /* AppDelegate.swift */; };
+		9232119A19F97F1C004C1C1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9232119919F97F1C004C1C1C /* ViewController.swift */; };
+		9232119C19F97F1C004C1C1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9232119B19F97F1C004C1C1C /* Images.xcassets */; };
+		9232119F19F97F1C004C1C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9232119D19F97F1C004C1C1C /* Main.storyboard */; };
+		923211AB19F97F1C004C1C1C /* KeyLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923211AA19F97F1C004C1C1C /* KeyLockTests.swift */; };
+		923211C219F98020004C1C1C /* KeyLockPrefs.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 923211C119F98020004C1C1C /* KeyLockPrefs.tiff */; };
+		923211C519F98020004C1C1C /* KeyLockPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923211C319F98020004C1C1C /* KeyLockPrefs.xib */; };
+		923211CA19F9805C004C1C1C /* KeyLockPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923211C919F9805C004C1C1C /* KeyLockPrefs.swift */; };
+		923211CC19FA9B5E004C1C1C /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923211CB19FA9B5E004C1C1C /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923211A519F97F1C004C1C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9232118A19F97F1C004C1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9232119119F97F1C004C1C1C;
+			remoteInfo = KeyLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9232119219F97F1C004C1C1C /* KeyLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9232119619F97F1C004C1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9232119719F97F1C004C1C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9232119919F97F1C004C1C1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9232119B19F97F1C004C1C1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9232119E19F97F1C004C1C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923211A419F97F1C004C1C1C /* KeyLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923211A919F97F1C004C1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923211AA19F97F1C004C1C1C /* KeyLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyLockTests.swift; sourceTree = "<group>"; };
+		923211B919F98020004C1C1C /* KeyLockPrefs.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLockPrefs.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		923211BC19F98020004C1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923211C119F98020004C1C1C /* KeyLockPrefs.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KeyLockPrefs.tiff; sourceTree = "<group>"; };
+		923211C419F98020004C1C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/KeyLockPrefs.xib; sourceTree = "<group>"; };
+		923211C919F9805C004C1C1C /* KeyLockPrefs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyLockPrefs.swift; sourceTree = "<group>"; };
+		923211CB19FA9B5E004C1C1C /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScreenSaver.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9232118F19F97F1C004C1C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923211CC19FA9B5E004C1C1C /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211A119F97F1C004C1C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211B519F98020004C1C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9232118919F97F1C004C1C1C = {
+			isa = PBXGroup;
+			children = (
+				923211CB19FA9B5E004C1C1C /* ScreenSaver.framework */,
+				9232119419F97F1C004C1C1C /* KeyLock */,
+				923211A719F97F1C004C1C1C /* KeyLockTests */,
+				923211BA19F98020004C1C1C /* KeyLockPrefs */,
+				9232119319F97F1C004C1C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9232119319F97F1C004C1C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9232119219F97F1C004C1C1C /* KeyLock.app */,
+				923211A419F97F1C004C1C1C /* KeyLockTests.xctest */,
+				923211B919F98020004C1C1C /* KeyLockPrefs.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9232119419F97F1C004C1C1C /* KeyLock */ = {
+			isa = PBXGroup;
+			children = (
+				9232119719F97F1C004C1C1C /* AppDelegate.swift */,
+				9232119919F97F1C004C1C1C /* ViewController.swift */,
+				9232119B19F97F1C004C1C1C /* Images.xcassets */,
+				9232119D19F97F1C004C1C1C /* Main.storyboard */,
+				9232119519F97F1C004C1C1C /* Supporting Files */,
+			);
+			path = KeyLock;
+			sourceTree = "<group>";
+		};
+		9232119519F97F1C004C1C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9232119619F97F1C004C1C1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923211A719F97F1C004C1C1C /* KeyLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				923211AA19F97F1C004C1C1C /* KeyLockTests.swift */,
+				923211A819F97F1C004C1C1C /* Supporting Files */,
+			);
+			path = KeyLockTests;
+			sourceTree = "<group>";
+		};
+		923211A819F97F1C004C1C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923211A919F97F1C004C1C1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923211BA19F98020004C1C1C /* KeyLockPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				923211C119F98020004C1C1C /* KeyLockPrefs.tiff */,
+				923211C319F98020004C1C1C /* KeyLockPrefs.xib */,
+				923211BB19F98020004C1C1C /* Supporting Files */,
+				923211C919F9805C004C1C1C /* KeyLockPrefs.swift */,
+			);
+			path = KeyLockPrefs;
+			sourceTree = "<group>";
+		};
+		923211BB19F98020004C1C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923211BC19F98020004C1C1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		923211B619F98020004C1C1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9232119119F97F1C004C1C1C /* KeyLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923211AE19F97F1C004C1C1C /* Build configuration list for PBXNativeTarget "KeyLock" */;
+			buildPhases = (
+				9232118E19F97F1C004C1C1C /* Sources */,
+				9232118F19F97F1C004C1C1C /* Frameworks */,
+				9232119019F97F1C004C1C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLock;
+			productName = KeyLock;
+			productReference = 9232119219F97F1C004C1C1C /* KeyLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923211A319F97F1C004C1C1C /* KeyLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923211B119F97F1C004C1C1C /* Build configuration list for PBXNativeTarget "KeyLockTests" */;
+			buildPhases = (
+				923211A019F97F1C004C1C1C /* Sources */,
+				923211A119F97F1C004C1C1C /* Frameworks */,
+				923211A219F97F1C004C1C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923211A619F97F1C004C1C1C /* PBXTargetDependency */,
+			);
+			name = KeyLockTests;
+			productName = KeyLockTests;
+			productReference = 923211A419F97F1C004C1C1C /* KeyLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923211B819F98020004C1C1C /* KeyLockPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923211C619F98020004C1C1C /* Build configuration list for PBXNativeTarget "KeyLockPrefs" */;
+			buildPhases = (
+				923211B419F98020004C1C1C /* Sources */,
+				923211B519F98020004C1C1C /* Frameworks */,
+				923211B619F98020004C1C1C /* Headers */,
+				923211B719F98020004C1C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLockPrefs;
+			productName = KeyLockPrefs;
+			productReference = 923211B919F98020004C1C1C /* KeyLockPrefs.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9232118A19F97F1C004C1C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Smith, Michael D.";
+				TargetAttributes = {
+					9232119119F97F1C004C1C1C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					923211A319F97F1C004C1C1C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9232119119F97F1C004C1C1C;
+					};
+					923211B819F98020004C1C1C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9232118D19F97F1C004C1C1C /* Build configuration list for PBXProject "KeyLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9232118919F97F1C004C1C1C;
+			productRefGroup = 9232119319F97F1C004C1C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9232119119F97F1C004C1C1C /* KeyLock */,
+				923211A319F97F1C004C1C1C /* KeyLockTests */,
+				923211B819F98020004C1C1C /* KeyLockPrefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9232119019F97F1C004C1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9232119C19F97F1C004C1C1C /* Images.xcassets in Resources */,
+				9232119F19F97F1C004C1C1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211A219F97F1C004C1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211B719F98020004C1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923211C219F98020004C1C1C /* KeyLockPrefs.tiff in Resources */,
+				923211C519F98020004C1C1C /* KeyLockPrefs.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9232118E19F97F1C004C1C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9232119A19F97F1C004C1C1C /* ViewController.swift in Sources */,
+				9232119819F97F1C004C1C1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211A019F97F1C004C1C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923211AB19F97F1C004C1C1C /* KeyLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923211B419F98020004C1C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923211CA19F9805C004C1C1C /* KeyLockPrefs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923211A619F97F1C004C1C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9232119119F97F1C004C1C1C /* KeyLock */;
+			targetProxy = 923211A519F97F1C004C1C1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9232119D19F97F1C004C1C1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9232119E19F97F1C004C1C1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923211C319F98020004C1C1C /* KeyLockPrefs.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923211C419F98020004C1C1C /* Base */,
+			);
+			name = KeyLockPrefs.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923211AC19F97F1C004C1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923211AD19F97F1C004C1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		923211AF19F97F1C004C1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KeyLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		923211B019F97F1C004C1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KeyLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		923211B219F97F1C004C1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLock.app/Contents/MacOS/KeyLock";
+			};
+			name = Debug;
+		};
+		923211B319F97F1C004C1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLock.app/Contents/MacOS/KeyLock";
+			};
+			name = Release;
+		};
+		923211C719F98020004C1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyLockPrefs/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		923211C819F98020004C1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLockPrefs/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9232118D19F97F1C004C1C1C /* Build configuration list for PBXProject "KeyLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923211AC19F97F1C004C1C1C /* Debug */,
+				923211AD19F97F1C004C1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923211AE19F97F1C004C1C1C /* Build configuration list for PBXNativeTarget "KeyLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923211AF19F97F1C004C1C1C /* Debug */,
+				923211B019F97F1C004C1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923211B119F97F1C004C1C1C /* Build configuration list for PBXNativeTarget "KeyLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923211B219F97F1C004C1C1C /* Debug */,
+				923211B319F97F1C004C1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923211C619F98020004C1C1C /* Build configuration list for PBXNativeTarget "KeyLockPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923211C719F98020004C1C1C /* Debug */,
+				923211C819F98020004C1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9232118A19F97F1C004C1C1C /* Project object */;
+}

@@ -13,6 +13,9 @@
 		92C8EF4219F833C30045FB05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C8EF4119F833C30045FB05 /* Images.xcassets */; };
 		92C8EF4519F833C30045FB05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C8EF4319F833C30045FB05 /* MainMenu.xib */; };
 		92C8EF5119F833C30045FB05 /* SpriteKitSimpleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8EF5019F833C30045FB05 /* SpriteKitSimpleGameTests.swift */; };
+		92C8EF5F19F834BD0045FB05 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C8EF5C19F834BD0045FB05 /* background-music-aac.caf */; };
+		92C8EF6019F834BD0045FB05 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92C8EF5D19F834BD0045FB05 /* pew-pew-lei.caf */; };
+		92C8EF6119F834BD0045FB05 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 92C8EF5E19F834BD0045FB05 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		92C8EF4A19F833C30045FB05 /* SpriteKitSimpleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSimpleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C8EF4F19F833C30045FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C8EF5019F833C30045FB05 /* SpriteKitSimpleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSimpleGameTests.swift; sourceTree = "<group>"; };
+		92C8EF5C19F834BD0045FB05 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		92C8EF5D19F834BD0045FB05 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		92C8EF5E19F834BD0045FB05 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		92C8EF2D19F833C30045FB05 = {
 			isa = PBXGroup;
 			children = (
+				92C8EF5A19F834BD0045FB05 /* SpriteKitSimpleGameResources */,
 				92C8EF3819F833C30045FB05 /* SpriteKitSimpleGame */,
 				92C8EF4D19F833C30045FB05 /* SpriteKitSimpleGameTests */,
 				92C8EF3719F833C30045FB05 /* Products */,
@@ -110,6 +117,24 @@
 				92C8EF4F19F833C30045FB05 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C8EF5A19F834BD0045FB05 /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				92C8EF5B19F834BD0045FB05 /* Sounds */,
+				92C8EF5E19F834BD0045FB05 /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		92C8EF5B19F834BD0045FB05 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				92C8EF5C19F834BD0045FB05 /* background-music-aac.caf */,
+				92C8EF5D19F834BD0045FB05 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C8EF5F19F834BD0045FB05 /* background-music-aac.caf in Resources */,
 				92C8EF4019F833C30045FB05 /* GameScene.sks in Resources */,
 				92C8EF4219F833C30045FB05 /* Images.xcassets in Resources */,
+				92C8EF6019F834BD0045FB05 /* pew-pew-lei.caf in Resources */,
+				92C8EF6119F834BD0045FB05 /* sprites.atlas in Resources */,
 				92C8EF4519F833C30045FB05 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
