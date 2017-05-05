@@ -10,6 +10,7 @@
 </button>
 <!--<p [innerText]="allowNewServer"></p>-->
 <!--<p>{{serverName}}</p>-->
-<p>{{serverCreationStatus}}</p>
+<!--<p>{{serverCreationStatus}}</p>-->
+<div class="alert alert-success" *ngIf="serverCreated">Server was created. Server name is {{serverName}}</div>
 <app-server></app-server>
 <app-server></app-server>
