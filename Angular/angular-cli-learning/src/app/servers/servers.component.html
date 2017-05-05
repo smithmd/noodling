@@ -11,9 +11,6 @@
 <!--<p [innerText]="allowNewServer"></p>-->
 <!--<p>{{serverName}}</p>-->
 <!--<p>{{serverCreationStatus}}</p>-->
-<div class="alert alert-success" *ngIf="serverCreated; else noServer">Server was created. Server name is {{serverName}}</div>
-<ng-template #noServer>
-  <div class="alert alert-danger">No server was created!</div>
-</ng-template>
+<div class="alert alert-success" *ngIf="serverCreated">Server was created. Server name is {{serverName}}</div>
 <app-server></app-server>
 <app-server></app-server>
