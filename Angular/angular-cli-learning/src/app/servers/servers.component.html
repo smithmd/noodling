@@ -8,9 +8,5 @@
         (click)="onCreateServer()">
   Add Server
 </button>
-<!--<p [innerText]="allowNewServer"></p>-->
-<!--<p>{{serverName}}</p>-->
-<!--<p>{{serverCreationStatus}}</p>-->
-<div class="alert alert-success" *ngIf="serverCreated">Server was created. Server name is {{serverName}}</div>
-<app-server></app-server>
-<app-server></app-server>
+<div class="alert alert-success" *ngIf="serverCreated">{{serverCreationStatus}}</div>
+<app-server *ngFor="let server of serverNames; let i = index" [serverName]="server" [serverId]="i"></app-server>

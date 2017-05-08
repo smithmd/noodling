@@ -1,12 +1,13 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-server',
   templateUrl: './server.component.html'
 })
 export class ServerComponent {
-  serverId: number = 10;
-  serverStatus: string = 'offline';
+  serverStatus = 'offline';
+  @Input() serverName: string;
+  @Input() serverId: number;
 
   constructor() {
     this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';
